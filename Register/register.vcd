@@ -1,0 +1,78 @@
+$date
+	Sun Apr 13 15:59:40 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var wire 32 ! r2_out [31:0] $end
+$var wire 32 " r1_out [31:0] $end
+$var reg 1 # clk $end
+$var reg 5 $ r1_address [4:0] $end
+$var reg 5 % r2_address [4:0] $end
+$var reg 5 & rd_address [4:0] $end
+$var reg 32 ' rd_data_in [31:0] $end
+$var reg 1 ( rd_write_enb $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 5 ) r1_address [4:0] $end
+$var wire 5 * r2_address [4:0] $end
+$var wire 5 + rd_address [4:0] $end
+$var wire 32 , rd_data_in [31:0] $end
+$var wire 1 ( rd_write_enb $end
+$var wire 32 - r2_out [31:0] $end
+$var wire 32 . r1_out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+b0 "
+b0 !
+$end
+#5
+1#
+#10
+bx "
+bx .
+0#
+b101 $
+b101 )
+1(
+b11011110101011011011111011101111 '
+b11011110101011011011111011101111 ,
+b101 &
+b101 +
+#15
+b11011110101011011011111011101111 "
+b11011110101011011011111011101111 .
+1#
+#17
+0(
+#20
+0#
+#25
+1#
+#30
+0#
+#35
+1#
+#37
